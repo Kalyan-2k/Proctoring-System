@@ -1,0 +1,35 @@
+
+Step wise procedure for Major Project Execution (Batch A-16)
+
+
+step 1: Install Visual Studio code 
+
+Step 2: Install Flutter (version 2.10) and Dart SDK
+
+step 3: Install MongoDB (version 5.0)
+
+step 4: Install Python (version 3.9)
+
+step 5: Place app.py file from API folder into backend Folder
+
+step 6: open the "backend" folder in a window in vscode
+
+Step 7: Install all the neccessary packages required to run the backend code
+       from requirements.txt file which is present in backend folder using 
+the command "pip install -r requirements.txt"
+
+step 8: run the above command in command prompt.
+
+step 9: Run the app.py file in backend folder using the command
+"python app.py" 
+
+step 10:Now open the "dashboard" folder in another window in vscode
+
+step 11: Open terminal in the vscode window containing dashboard folder.
+
+step 12: Run the command "flutter run -d chrome --web-port 8000"
+
+step 13: The 8000 at the end of the command is the port number on which 
+	the application is running.
+
+(NOTE : DO NOT RUN THIS FRONTEND CODE ON PORT 5000 AS THE BACKEND CODE RUNS ON PORT 5000)    
